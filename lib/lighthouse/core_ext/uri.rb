@@ -16,7 +16,4 @@ begin
     end
   end
 rescue LoadError => e
-  puts "Install the Addressable gem (with dependencies) to support accounts with subdomains."
-  puts "# sudo gem install addressable --development"
-  puts e.message
 end
